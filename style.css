@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap&family=Roboto:wght@300&display=swap');
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(233,223,57,1) 0%, rgba(255,184,0,1) 100%);
+}
+
+.cabeca {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(190,247,255,1) 100%);
+}
+
+.topo-site {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px 550px;
+    padding: 10px;
+}
+
+.logo-site {
+    width: 80px;
+}
+
+.nome-site {
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    font-size: 18pt;
+    color: black;
+}
+
+.navegacao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    display: flex;
+    gap: 0px 25px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    transition: all 450ms;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 4px 5px rgb(26, 26, 26);
+    color: rgba(190,247,255,1);
+}
+
+.esquerda-site {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    transition: all 450ms;
+}
+
+.esquerda-site:hover {
+    transform: scale(1.05)
+}
+
+.receita-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 50px;
+    height: 825px;
+}
+
+.receita-main-1, .receita-main-2{
+    width: 250px;
+    height: 225px;
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 1px 5px black;
+    transition: all 450ms;
+}
+
+.receita-main-1:hover, .receita-main-2:hover {
+    transform: scale(1.2);
+}
+
+.receita-main-1-img, .receita-main-2-img {
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.receita-main-1-titulo, .receita-main-2-titulo{
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.receita-main-1-descricao, .receita-main-2-descricao{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+
+.copy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.texto-copy {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    color: black;
+    transition: all 450ms;
+}
+
+.texto-copy:hover {
+    color: rgba(190,247,255,1);
+    font-size: 13pt;
+}
